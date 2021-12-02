@@ -27,7 +27,7 @@ class Pipeline:
         self.eps_decay = 100000
         self.target_update = 10
         self.episodes = 10000
-        self.save_dir = "best_model"
+        self.save_dir = "./DQN/best_model"
 
         init_screen = self.get_screen()
         _, _, self.screen_height, self.screen_width = init_screen.shape

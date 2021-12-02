@@ -1,5 +1,8 @@
 # ML Project Submission
 
+## Initial Setup
+ALE/Gym will ask if you have permission to run the games under a researcher's license and give you a command for to enter. Enter that command as this will allow you to get the Atari 2600 games and run the code.
+
 ## DQN
 In order to run DQN, one can simply navigate to the DQN folder and run:
 ```shell

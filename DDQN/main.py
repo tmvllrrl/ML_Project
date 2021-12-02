@@ -33,7 +33,7 @@ if __name__ == "__main__":
         help="Number of steps to wait before updating policy.")
     parser.add_argument("--load", action="store_true",
         help="Load model paramters.")
-    parser.add_argument("--model", default="./model",
+    parser.add_argument("--model", default="model",
         help="Path to model parameters.")
     parser.add_argument("--env", default="Qbert-ram-v0",
         help="Environment to train (e.g., CartPole-v0 or MountainCar-v0).")
@@ -51,9 +51,9 @@ if __name__ == "__main__":
         help="Max gradient norm.")
     parser.add_argument("--use_grad_norm", action="store_true",
         help="Clip the gradient.")
-    parser.add_argument("--save_dir", default="models",
+    parser.add_argument("--save_dir", default="./DDQN/models",
         help="Save directory.")
-    parser.add_argument("--save_best_dir", default="best_model",
+    parser.add_argument("--save_best_dir", default="./DDQN/best_model",
         help="Save directory for best model.")
     parser.add_argument("--update_steps", type=int, default=4,
         help="How many episode timesteps elapsed before updating.")
