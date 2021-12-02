@@ -13,6 +13,7 @@ Or open the folder in an IDE and run it from there.
 If you want to change the game that is being played, then you will have to change the source code directly (it is currently set to play Qbert with frames). To change the game, you would change line 21 in pipeline.py to a different Atari 2600 game followed by "-v0" (for example, "Pong-v0").
 
 ## DDQN w/ PER
+This code was developed previously by Ryan Wickman.
 Similar instructions as above with DQN; however, the file to run is the main.py file. So, one can navigate to the DDQN folder and run:
 ```shell
 python3 main.py
